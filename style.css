@@ -1,0 +1,88 @@
+/*Estilo y Diseño de Pagina*/
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+
+/* Colores corporativos para el encabezado y botones */
+header {
+    background-color: #1b0088;
+    color: #ffffff;
+}
+
+/* Color de fondo del botón de Preguntas Frecuentes */
+.accordion .btn-link {
+    background-color: #1b0088;
+    color: #ffffff;
+}
+
+/* Color de fondo de los botones del navbar */
+.navbar .navbar-nav .nav-link {
+    background-color: #1b0088;
+    color: #ffffff;
+}
+/* Fuente del texto del encabezado */
+h1 {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Fuente del texto del contenido principal */
+p {
+    font-family: 'Helvetica', sans-serif;
+}
+/* Estilo de los botones del navbar */
+.navbar .navbar-nav .nav-link {
+    background-color: #1b0088;
+    color: #ffffff;
+    border: none;
+}
+
+/* Estilo del texto */
+footer {
+
+    text-align: center;
+    padding: 10px;
+}
+/* Estilo de los botones del footer */
+footer .btn {
+    background-color: #1b0088;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*imagen de fondo*/
+body {
+    background-image: url('file:///C:/Users/David/Desktop/Vuela Lejos!/images/fondo.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+
+}
+/*imagenes pequeñas destinos y hoteles*/
+.img-thumbnail{
+    width: 150px ;
+    height: 150px;
+
+}
+
+/*imagen index*/
+.rounded{
+    max-width: 100%;
+    height: auto;  
+}
